@@ -1,0 +1,559 @@
+/** Form styling */
+/** AdminPanel styling*/
+body{
+    background-image: url("../images/bgimage.jpg") ;
+}
+.index-calendar img {
+    padding: 80px 108px 0;
+}
+#content {
+    margin-top: 0;
+    padding: 5px 10px 0;
+    width: 98%;
+    margin-bottom: 50px;
+}
+.my-well {
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 0px;
+    width: 1039px;
+}
+.fb-like{
+    padding: 35px 0 0 110px;
+    position: absolute !important;
+    z-index: 2;
+}
+.index-well{
+    background-image: url("../images/bg-main-div.jpg");
+    color: rgb(185, 230, 230);
+    font-size: 21px;
+    text-shadow: 4px 4px 2px rgb(36, 36, 36);
+    list-style-image: url("../images/chek-list-style.png");
+    padding: 22px 105px;
+    border: hidden;
+    outline-offset: 6px;
+    width: 869px;
+    margin: auto;
+}
+.index-calendar{
+    background-image: url("../images/index-callendar-divbg.jpg");
+    margin: auto;
+    min-height: 270px;
+    width: 1079px;
+
+}
+.index-well.well.my-well > div{
+    font-size: 20px;
+    font-family: Times, "Times New Roman", serif;
+}
+.cat-well1{
+    background-image: url("../images/category-bg1.jpg");
+    border: medium none;
+    border-radius: 0;
+    margin: 0 auto;
+    min-height: 307px;
+    width: 1079px;
+}
+.cat-well2{
+    background-image: url("../images/category-bg2.jpg");
+    border: medium none;
+    border-radius: 0;
+    margin: auto;
+    min-height: 389px;
+    width: 1079px;
+}
+.cat-well2 img {
+    margin: 251px 99px 0;
+}
+.cat-btn{
+    background-image: url("../images/category-button.jpg");
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    display: inline-flex;
+    height: 43px;
+    margin-bottom: -30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 193px;
+}
+.cat-btn, a:hover, a:focus{
+    text-decoration: none;
+}
+.cat-cont {
+    width: 620px;
+}
+.inner-cat{
+    padding: 35px 490px 177px 115px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-shadow: 3px 5px 5px rgb(0, 0, 0);
+
+}
+.inner-cat2{
+    background-image: url("../images/div-2.jpg");   
+    width: 1079px;
+    height: 247px;
+    margin: 0 auto;
+    color: #e3d290;
+    text-shadow: 3px 5px 5px rgb(0, 0, 0);
+    font-family: Times, "Times New Roman", serif;
+    font-size: 30px;
+
+}
+.inner-cat2 > ul {
+    padding-left: 100px;
+    padding-top: 30px;
+    list-style: inherit;
+    position: absolute;
+/*    list-style-image: url("../images/chek-list-style.png");*/
+}
+.inner-cat2 > ul > li {
+    padding: 5px;
+}
+.reg-btn{
+    background-image: url("../images/reg-btn.png");
+    background-repeat: no-repeat;
+    display: inline-flex;
+    margin-left: 729px;
+    margin-top: 100px;
+    padding: 9px 52px 41px 38px;
+    text-shadow: none;
+    color: rgb(70, 71, 68);
+}
+.document-all{
+    background-image: url("../images/doc-bg2.jpg");
+    width: 1079px;
+    min-height: 738px;
+    margin: 0 auto;
+}
+
+.doc-text {
+    padding: 35px 115px 25px 140px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.gallery{
+    margin: 0 auto;
+    width: 1079px;
+    height: 650px;
+}
+.contacts{
+    background-image: url("../images/contacts_bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 340px;
+}
+.contacts-text{
+    color: wheat;
+    padding: 10% 25%;
+    text-align: left;
+}
+#listovki iframe {
+    height: 652px;
+    margin: 0 -19px;
+    width: 1079px;
+}
+.contacts-footer{
+    background-image: url("../images/contacts_footer.jpg");
+    border: medium none;
+    border-radius: 0;
+    margin: auto;
+    min-height: 270px;
+    width: 1079px;
+
+}
+.category-a{
+    background-image: url("../images/acat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 352px;
+    color: #fff9e5;
+}
+.category-b{
+    background-image: url("../images/bcat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 352px;
+    color: #fff9e5;
+}
+.category-c{
+    background-image: url("../images/ccat1-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 346px;
+    color: #fff9e5;
+}
+.category-c-e{
+    background-image: url("../images/ccat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 346px;
+    color: #fff9e5;
+}
+.category-a1{
+    background-image: url("../images/acat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 346px;
+    color: #fff9e5;
+}
+.category-a2{
+    background-image: url("../images/acat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 346px;
+    color: #fff9e5;
+}
+.category-am{
+    background-image: url("../images/amcat-bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1079px;
+    height: 346px;
+    color: #fff9e5;
+}
+
+
+.button-view{
+    font-size: 21px;
+    padding: 10px 23px;
+    color: rgb(21, 20, 20);
+}
+.doc-btn{
+    background-image: url("../images/doc-btn-bg.png");
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+    padding: 4px 44px;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+
+}
+
+
+div > ul > li{
+    margin-left: 15px;
+    line-height: 150%;
+}
+.tbl-first-li{
+    margin-left: 40px;
+}
+.index-cross{
+    background-image : url("../images/cross_copy_3.png");
+}
+
+.inner-head {
+    background: none repeat scroll 0 0 #efefef;
+    border: 1px solid #d7d7d7;
+    display: block;
+    margin: 0 0 2px;
+    padding: 15px 25px;
+}
+
+.inner-content {
+    background: none repeat scroll 0 0 #efefef;
+    border: 1px solid #d7d7d7;
+    display:  inline-block;
+    margin: 0 0 50px;
+    padding: 15px 25px;
+}
+
+
+/**  start admin buttons  */
+
+.large-btn-pop{
+    display: none;
+}
+.large-btn:hover span.large-btn-txt, .large-btn span.large-btn-pop{
+    display: none;
+}
+.large-btn:hover span.large-btn-pop {
+    background: url("../images/hover-state.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    color: #fff;
+    display: block;
+    height: 19px;
+    left: 10px;
+    padding: 8px 0;
+    position: absolute;
+    text-align: center;
+    top: 107px;
+    width: 130px;
+}
+.large-btn {
+    color: #333 !important;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 45px;
+    margin: 0 4px;
+    padding: 100px 15px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    width: 120px;
+}
+.btn-user-c {
+    background: url("../images/large-btn-user-c.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.btn-excel {
+    background: url("../images/large-btn-excel.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.btn-lock {
+    background: url("../images/large-btn-lock.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-info-2 {
+    background: url("../images/large-btn-info.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-mail {
+    background: url("../images/large-btn-mail.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-register {
+    background: url("../images/large-btn-register.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-money {
+    background: url("../images/large-btn-money.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-paketi {
+    background: url("../images/large-btn-paketi.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.btn-coordinates {
+    background: url("../images/large-btn-coordinates.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+/** end admin buttons  */
+
+/** start header */
+.navbar{
+    margin: 0 auto auto;
+    overflow: visible;
+    width: 1079px;
+}
+.bottom-header {
+    display: inline-flex;
+}
+.navbar-inner {
+    background: url("../images/navbarbg.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
+    color: #ffffff;
+    min-height: 42px;
+    padding: 0 85px;
+    border: none;
+    border-radius: 0px;
+}
+.navbar .nav > li > a {
+    background: url("../images/divider.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    text-shadow: none;
+}
+.navbar .nav > li > a {
+    color: #e3d290;
+}
+.navbar .nav > li:hover > a {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar .nav > li:hover, .navbar .nav > li.active > a{
+    /*background: url("../images/menu-hover.png") no-repeat scroll right top rgba(0, 0, 0, 0);*/
+    color: #d6d6d6;
+    opacity: 0.8;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: transparent;
+    opacity: 0.5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+    color: #ffffee;
+    text-decoration: none;
+
+}
+
+/** end header */
+.resursi {
+    padding: 0 0 12px;
+}
+
+/* start Footer */
+.footer {
+    bottom: 0;
+    background: url("../images/navbarbg.jpg") repeat-x scroll center bottom rgba(0, 0, 0, 0) !important;
+    height: 37px;
+    list-style-type: none;
+    width: 1079px;
+    margin: -50px auto auto;
+    position: static;
+
+}
+ul.extrafoot li {
+    float: left;
+}
+
+ul.extrafoot li a, ul.extrafoot li span {
+   /* background: url("../images/footer-menu-div.png") no-repeat scroll right bottom rgba(0, 0, 0, 0); */
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 3px 5px;
+    padding: 10px 20px 0;
+    text-decoration: none;
+}
+.extrafoot > li {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.extrafoot ul {
+    bottom: 60px;
+    display: none;
+    left: 0;
+    list-style: none outside none;
+    position: absolute;
+}
+.extrafoot li:hover ul {
+    white-space: nowrap;
+}
+.extrafoot li:hover ul {
+    display: block;
+}
+.extrafoot li ul li {
+    min-width: 200px;
+}
+.extrafoot li ul li a {
+    background: none repeat scroll 0 0 #000;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    display: block;
+    padding: 4px;
+}
+.extrafoot li ul li a:hover {
+    background: none repeat scroll 0 0 #333;
+    text-decoration: underline;
+}
+.extrafoot li ul li a.main-foot-nav {
+    font-family: Trebuchet MS, Tahoma, Verdana;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.extrafoot li ul li a.sub-foot-nav {
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* end Footer */
+
+
+/* start table */
+table tr th {
+    background: none repeat scroll 0 0 #52bab6;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 13px;
+    text-align: left;
+}
+form table.table tr td {
+    padding: 5px;
+}
+.table tr.even{
+    background: none repeat scroll 0 0 #f6f6f6;
+
+}
+.table tr.odd {
+    background: none repeat scroll 0 0 #fafafa;
+}
+.table thead th {
+    vertical-align: middle;
+}
+
+table.table tbody tr:hover td {
+    background: none repeat scroll 0 0 #f0efef;
+}
+.table-condensed th, .table-condensed td {
+    padding: 7px;
+}
+
+input.coordinate-input {
+    max-width: 85px;
+}
+.table-coordinates td {
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.table-coordinates td input {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.table-hover tr td:hover{
+    cursor: pointer;
+}
+.datepicker td, .datepicker th {
+    padding: 1px;
+}
+.datepicker th {
+    border-radius: 0px;
+}
+.datepicker thead tr:first-child th:hover,
+.datepicker tfoot tr th:hover {
+    background-color: #46adaa;
+}
+
+/* end table */
+
+/*start reg-form CSS */
+.reg-form-bg {
+    background: url("../images/reg-form-bg.png") repeat scroll left top rgba(0, 0, 0, 0);
+    border-radius: 9px;
+    margin: 19px auto 5px;
+    padding: 20px 120px 1px 25px;
+    width: 440px;
+}
+
+.reg-form-bg form {
+    background: url("../images/bg_reg_form.jpg") repeat-x scroll left top #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 10px;
+    width: 476px;
+}
+.reg-container{
+    background: url("../images/reg-cont-bg.jpg") repeat scroll 0 0 #10a5d3;
+    margin: -10px auto -4px;
+    width: 1079px;
+}
+.reg-container > h1{
+    text-align: center;
+}
+label {
+    margin-bottom: 10px;
+}
+.register-btn{
+    width: 470px;
+}
+select#Register_category_id{
+    width: 470px;
+    color: #909090
+}
+.cat-index-reg-btn{
+    background-image: url("../images/reg-btn.png");
+    background-repeat: no-repeat;
+    color: rgb(70, 71, 68);
+    font-family: Times, "Times New Roman", serif;
+    font-size: 30px;
+    margin-left: 205px;
+    margin-top: 100px;
+    padding: 9px 52px 40px 38px;
+    position: absolute;
+}
