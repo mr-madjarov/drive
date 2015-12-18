@@ -1,7 +1,9 @@
 <?php
 /* @var $this GalleryController */
 ?>
-
+<div class="fa-facebook">
+    //Facebook comments begin here.
+</div>
 
 <div class="gallery">
     <!-- Active Content Workaround Support File -->
