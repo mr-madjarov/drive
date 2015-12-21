@@ -2,7 +2,14 @@
 /* @var $this GalleryController */
 ?>
 <div class="fa-facebook">
-    //Facebook comments begin here.
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.5&appId=675853552484748";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 </div>
 
 <div class="gallery">
@@ -190,3 +197,4 @@
     </noscript>
 
 </div>
+<div class="fb-comments" data-href="http://zeinev.com" data-numposts="5" data-colorscheme="dark"></div>

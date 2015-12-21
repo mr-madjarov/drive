@@ -24,6 +24,18 @@ body{
     position: absolute !important;
     z-index: 2;
 }
+
+.fb-comments {
+    background: #282828 none repeat scroll 0 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 1079px;
+}
+.fb_iframe_widget {
+    display: block  !important;
+    position: relative;
+}
 .index-well{
     background-image: url("../images/bg-main-div.jpg");
     color: rgb(185, 230, 230);
