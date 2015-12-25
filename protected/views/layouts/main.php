@@ -20,7 +20,15 @@
     <title><?php $title = CHtml::encode( $this->pageTitle );
         echo t( $title ); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/app.css"/>
-    
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"Този сайт използва „бисквитки“ от Google за предоставяне на услугите в него, за анализ на трафика. Информацията за ползването му от ваша страна се споделя с Google. С използването на този сайт вие се съгласявате с употребата на „бисквитки“","dismiss":"OK","learnMore":"Научете повече","link":"https://www.google.com/policies/technologies/cookies/","theme":"light-bottom"};
+    </script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
 </head>
 
 <body>
