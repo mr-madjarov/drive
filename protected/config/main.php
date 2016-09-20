@@ -56,18 +56,11 @@ return CMap::mergeArray( array(
                 ),
             ),
             */
-            'db'           => array(
-                'connectionString' => 'mysql:host=localhost;dbname=drive_db;unix_socket=/tmp/mysql.sock',
-                'emulatePrepare'   => true,
-                'username'         => 'root',
-                'password'         => '',
-                'charset'          => 'utf8',
-                'tablePrefix'      => 'tbl_',
-            ),
+          
             // uncomment the following to use a MySQL database
             /*
             'db'=>array(
-                'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+                'connectionString' => 'mysql:host=localhost;dbname=testdrive;unix_socket=/tmp/mysql.sock',
                 'emulatePrepare' => true,
                 'username' => 'root',
                 'password' => '',
