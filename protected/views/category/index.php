@@ -9,7 +9,6 @@
         )
     );
 
-
     ?>
 </div>
 <div class="cat-well2">
